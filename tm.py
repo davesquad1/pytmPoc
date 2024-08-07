@@ -3,6 +3,7 @@ from pytm import (
 )
 
 tm = TM("My Threat Model")
+tm.description = "This is a proof of concept threat model"
 
 publicBoundary = Boundary("Uncontrolled by us")
 protectedBoundary = Boundary("Controlled by us")
